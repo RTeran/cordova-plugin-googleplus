@@ -14,9 +14,9 @@
 
   <keywords>Google, Google SignIn, GoogleSignIn, Google Login, Login, OAuth, Identity, Authentication</keywords>
 
-  <repo>https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git</repo>
+  <repo>https://github.com/RTeran/cordova-plugin-googleplus.git</repo>
 
-  <issue>https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues</issue>
+  <issue>https://github.com/RTeran/cordova-plugin-googleplus/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.5.0"/>
@@ -29,8 +29,8 @@
   <!-- android -->
   <platform name="android">
 
-    <framework src="com.google.android.gms:play-services-auth:+" />
-    <framework src="com.google.android.gms:play-services-identity:+" />
+    <framework src="com.google.android.gms:play-services-auth:10.+" />
+    <framework src="com.google.android.gms:play-services-identity:10.+" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GooglePlus">
